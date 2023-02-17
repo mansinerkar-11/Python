@@ -98,22 +98,9 @@ def multiplication():
         print("Multiplication cannot be performed")
             
 def transpose():
-    trans=[]
-    
-    for i in range (r1):
-        r=[]
-        for j in range(c1):
-            r.append(0)
-        trans.append(r)
-        
-    for i in range (r1):
-        for j in range(c1):
-            trans[i][j]=matrix2[j][i]
-            
-    for i in range (r1):
-        print("\n")
-        for j in range (c1):
-            print(trans[i][j] , end="  ")
+    result = [[matrix1[j][i] for j in range(len(matrix1))] for i in range(len(matrix1[0]))]
+    for r in result:
+        print(r)
             
             
 ch=0

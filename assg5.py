@@ -40,11 +40,4 @@ def ask():
         exit
 mainf()
 ask()
-def ask():
-    opt=input("Do u want to continue Y/N :")
-    if(opt=='y' or opt=='Y'):
-            mainf()
-            ask()
-    else:
-        exit
-   
+

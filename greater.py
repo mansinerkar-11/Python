@@ -11,3 +11,4 @@ elif N2>N3 and N2>N1:
 else:
     print(N3,"is Greater")
 
+look here this the program to find the greater nnumber

@@ -43,6 +43,7 @@ def substringind():
 	substr=input("Enter substring :")
 	b=str1.find(substr)
 	print(b)
+
 def mainf():
 	print("\n--------------------------------\n")
 	print('''1.find Longest word\n2.Frequency of character\n3.Check palindrome\n4.Display index of substring\n5.word count\n''')
